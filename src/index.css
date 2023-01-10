@@ -4,3 +4,14 @@ body {
   color: #4E3D38;
   height: 32px;
 }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* 
+brown: #7F6757
+dark brown: #4E3D38
+pink: #EADCDC
+*/
