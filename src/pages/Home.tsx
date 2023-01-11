@@ -1,5 +1,7 @@
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
 import styled from 'styled-components';
+import MediaIcons from '../components/MediaIcons';
 import Togepi from "../public/togepi.jpg";
 
 const Home = () => {
@@ -7,8 +9,8 @@ const Home = () => {
     display: flex;
     flex-direction: row;
     align-items: center;
-    // justify-content: center;
-    margin-top: 128px;
+    justify-content: center;
+    margin-top: 128px;  // temp
   `;
 
   const Circle = styled.div`
@@ -34,6 +36,22 @@ const Home = () => {
       <div>
         <p>Hey, I'm</p>
         <p style={{fontSize: 70, marginTop: 0, marginBottom: 0}}>Cindy Wang</p>
+        <TypeAnimation
+          sequence={[
+            'Computer Science Student', 
+            2000, 
+            'University of Waterloo Undergraduate', 
+            2000, 
+            'Software Developer', 
+            2000
+          ]}
+          wrapper="p"
+          cursor={true}
+          repeat={Infinity}
+          speed={10}
+          deletionSpeed={50}
+        />
+        <MediaIcons/>
       </div>
     </ProfileContainer>
   );
