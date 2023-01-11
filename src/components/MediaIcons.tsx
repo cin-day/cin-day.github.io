@@ -28,7 +28,7 @@ const  MediaIcons = () => {
       },
     ]
     return (
-      <div>
+      <div style={{marginTop: 24}}>
         {media.map((social) => {
           return (
             <a href={social.link} target="_blank">
