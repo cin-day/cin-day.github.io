@@ -12,11 +12,11 @@ const  MediaIcons = () => {
       },
       {
         icon: Devpost,
-        link: "https://github.com/cin-day/",
+        link: "https://devpost.com/cinwan23/",
       },
       {
         icon: LinkedIn,
-        link: "https://devpost.com/cinwan23/",
+        link: "https://linkedin.com/in/cindy-wang2",
       },
       {
         icon: Resume,
