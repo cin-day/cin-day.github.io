@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cin-day.github.io/static/css/main.f5fd7752.css",
+    "main.js": "/cin-day.github.io/static/js/main.e9c08754.js",
+    "static/media/togepi.jpg": "/cin-day.github.io/static/media/togepi.cbdc146fb99cf757ebd5.jpg",
+    "static/media/github.svg": "/cin-day.github.io/static/media/github.1bd786a36bdae1dad7bf782b7f74e544.svg",
+    "static/media/linkedin.svg": "/cin-day.github.io/static/media/linkedin.a97aeae2d1e776d6b3193f4ca12da0db.svg",
+    "static/media/resume.svg": "/cin-day.github.io/static/media/resume.eca70de9d6f2e85aa44d04fac4b38f86.svg",
+    "static/media/email.svg": "/cin-day.github.io/static/media/email.5e7d8ce01e83283e9ff1f3e781367198.svg",
+    "static/media/devpost.svg": "/cin-day.github.io/static/media/devpost.5a0c03889413f26d34184359cb60425b.svg",
+    "index.html": "/cin-day.github.io/index.html",
+    "main.f5fd7752.css.map": "/cin-day.github.io/static/css/main.f5fd7752.css.map",
+    "main.e9c08754.js.map": "/cin-day.github.io/static/js/main.e9c08754.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5fd7752.css",
+    "static/js/main.e9c08754.js"
+  ]
+}
