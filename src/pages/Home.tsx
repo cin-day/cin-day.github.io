@@ -27,6 +27,7 @@ const Home = () => {
   const ProfileImg = styled.img`
     height: 400px;
     width: 400px;
+    object-fit: cover;
     border-radius: 50%;
   `; 
 
