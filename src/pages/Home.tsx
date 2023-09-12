@@ -4,6 +4,10 @@ import MediaIcons from '../components/MediaIcons';
 // import Togepi from "../public/togepi.jpg";
 import CindyGhibli from "../public/cindy_ghibli.png";
 
+/**
+ * Note to self: always run npm run deploy after pushing to main
+ */
+
 const Home = () => {
   const ProfileContainer = styled.div`
     display: flex;
