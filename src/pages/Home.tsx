@@ -40,6 +40,10 @@ const Home = () => {
     margin-left: 96px;
   `;
 
+  const ParagraphContainer = styled.div`
+    width: 400px;
+  `;
+
   return (
     <ProfileContainer className="container">
       {/* <Circle><ProfileImg src={Togepi}/></Circle> */}
@@ -48,12 +52,16 @@ const Home = () => {
         <p style={{fontSize: 70, marginTop: 0, marginBottom: 0}}>Cindy Wang</p>
         <TypeAnimation
           sequence={[
-            'Computer Science Student', 
+            'Fourth Year Computer Science Student', 
             2000, 
-            'University of Waterloo Undergraduate', 
+            'University of Waterloo Undergraduate',  
+            2000,
+            'Prev @ Coinbase, UKG',
+            2000,
+            'Prev @ The Weather Network, Nokia',
             2000, 
-            'Software Developer', 
-            2000
+            'Software Developer',
+            2000,
           ]}
           wrapper="p"
           cursor={true}
@@ -62,6 +70,9 @@ const Home = () => {
           deletionSpeed={50}
         />
         <MediaIcons/>
+        {/* <ParagraphContainer>
+          <p>I'm a fourth year Computer Science student at the University of Waterloo</p>
+        </ParagraphContainer> */}
       </div>
       <ProfileImg src={CindyGhibli}/>
     </ProfileContainer>
